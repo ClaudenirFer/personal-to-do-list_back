@@ -5,7 +5,7 @@ const listModel = mongoose.Schema({
   description: { type: String, required: true },
   status: { type: Number, required: true },
   priority: { type: Number, required: true },
-  deadline: { type: Date, required: true },
+  deadline: { type: String, required: true },
   registDate: { type: Date, default: Date.now },
 });
 
